@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+body {
+  background-image: url(/1664570117_3-beolin-club-p-sigara-risunok-oboi-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+}
+img {
+  width: 70px;
+  height: 60px;
+  border-radius: 25px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 70px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 0.7s;
+}
+a:hover {
+  color: blue;
+  transition: 0.7s;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+span {
+  color: blue;
+  font-size: 40px;
+}
+h1:hover {
+  color: brown;
+  transition: 0.7s;
+}
+.buttonlar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+.but1 {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.but2 {
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.but1:hover {
+  background-color: brown;
+  transition: 0.7s;
+}
+.but2:hover {
+  background-color: brown;
+  transition: 0.7s;
+}
+marquee {
+  color: white;
+  cursor: pointer;
+  border-radius: 80px;
+  transition: 0.7s;
+  margin-top: 100px;
+}
+.sp {
+  color: blue;
+}
+marquee:hover {
+  -webkit-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  transition: 0.7s;
+}
+h2 {
+  color: white;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+.rasm {
+  width: 300px;
+  height: 300px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 50px;
+}
+.cardlar1 img{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.cardlar2 img{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.cardlar3 img{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.cardlar4 img{
+    cursor: pointer;
+    transition: 0.7s;
+}
+.cardlar1 h2{
+    color: blue;
+}
+.cardlar2 h2{
+    color: blue;
+}
+.cardlar3 h2{
+    color: blue;
+}
+.cardlar4 h2{
+    color: blue;
+}
+.qa{
+    color: white;
+}
+.cardlar1 img:hover{
+    -webkit-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  transition: 0.7s;
+}
+.cardlar2 img:hover{
+    -webkit-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  transition: 0.7s;
+}
+.cardlar3 img:hover{
+    -webkit-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  transition: 0.7s;
+}
+.cardlar4 img:hover{
+    -webkit-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 16px rgba(227, 0, 0, 0.2);
+  transition: 0.7s;
+}
